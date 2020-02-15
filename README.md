@@ -1,5 +1,5 @@
 ## Threaded Server
-A Server that takes input from a client and returns answers to basic arithmetic. Server connects clients and Worker threads process the input and give a response to the client. Thread count is dynamically adjusted based on number of clients connecting. This was an assignment for CSCD 467 - Parallel & Cloud Computing at Eastern Washington University. 
+A server that takes input from a client and returns answers to basic arithmetic. Server connects clients and Worker threads process the input and give a response to the client. A "KILL" command is also supported that shuts down the server and all threads when received. Thread count is dynamically adjusted based on number of clients connecting. This was an assignment for CSCD 467 - Parallel & Cloud Computing at Eastern Washington University. 
 
 ## Getting Started
 Install Java and compile the files. Run Server.java to start the server, then run Client.java. Alternatively, run ParallelTest.java to simulate 500 clients connecting at once. 
